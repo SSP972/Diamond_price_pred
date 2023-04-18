@@ -14,7 +14,7 @@ import os
 
 @dataclass 
 class ModelTrainerConfig:
-    trained_model_file_path = os.path.join('artifacts','model.pkl')
+    trained_model_file_path = os.path.join('Diamond_price_pred/artifacts','model.pkl')
 
 
 class ModelTrainer:
